@@ -1,5 +1,6 @@
 # Allow vendor/extra to override any property by setting it first
 $(call inherit-product-if-exists, vendor/extra/product.mk)
+$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
 
 PRODUCT_BRAND ?= exTHmUI
 

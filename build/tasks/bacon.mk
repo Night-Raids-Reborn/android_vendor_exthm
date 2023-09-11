@@ -17,7 +17,7 @@
 # -----------------------------------------------------------------
 # exTHm OTA update package
 
-EXTHM_TARGET_PACKAGE := $(PRODUCT_OUT)/exthm-$(EXTHM_VERSION).zip
+EXTHM_TARGET_PACKAGE := $(PRODUCT_OUT)/lineage-$(EXTHM_VERSION).zip
 
 .PHONY: bacon
 bacon: $(INTERNAL_OTA_PACKAGE_TARGET)
